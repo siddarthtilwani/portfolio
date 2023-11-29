@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(8, 3, 46);
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(1, 1, 72); 
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+nav ul li a:hover{
+    color: rgb(97, 5, 37);
+    font-size: 1.2rem;
+}
+.left{
+   font-size: 1.5rem;
+}
+.firstSection{
+display: flex;
+justify-content: space-around;
+margin: 120px 0;
+align-items: center;
+}
+.firstSection > div{
+width: 30%;
+}
+.leftSection{
+font-size: 2.5rem;
+user-select: none;
+}
+.rightSection img{
+ width: 80%;
+}
+.aaaa{
+color: red;
+user-select: none;
+}
+main hr{
+border: 0;
+background-color: #9c97f1;
+height: 1.2px;
+margin: 40px 84px;
+
+}
+.secondSection{
+max-width: 80vw;
+margin:auto;
+height: 80vh;
+}
+.secondSection h1{
+font-size: 1.9rem;
+}
+.secondSection .box{
+  background-color: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+.secondSection .vertical{
+height: 70px;
+width: 1px;
+background-color: whitesmoke;
+margin: 0 100px
+
+}
+.vertical-text{
+ position: relative;
+ top: 75px;
+ width: 150p;
+}
+.about{
+   position: relative;
+   top: 86px;
+   color: grey;
+   width: 150px;
+   font-size: 9px;
+}
+.foot{
+color: rgb(161, 188, 26);
+}
